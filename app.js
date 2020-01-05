@@ -1,5 +1,6 @@
 const express=require("express");
 const bodyParser=require("body-parser");
+<<<<<<< HEAD
 const expresslayout=require("express-ejs-layouts");
 const mongoose=require("mongoose");
 const flash=require('connect-flash');
@@ -50,3 +51,9 @@ app.use("/users",require('./routes/users'));
 app.listen(process.env.port||4000,function(){
   console.log("server started on port 4000");
 });
+=======
+const app=express();
+
+
+app.use(bodyParser.urlencoded({extended:true}));
+>>>>>>> 7df89fc1f137e4fde2c4c36e9b3e61fb646e738d

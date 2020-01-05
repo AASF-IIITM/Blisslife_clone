@@ -4,14 +4,19 @@
   "description": "this is a project on bisslife app",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node app.js",
     "dev": "nodemon app.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 7df89fc1f137e4fde2c4c36e9b3e61fb646e738d
   },
   "repository": {
     "type": "git",
     "url": "Blisslife_clone"
   },
   "author": "harsh",
+<<<<<<< HEAD
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -24,4 +29,7 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   }
+=======
+  "license": "ISC"
+>>>>>>> 7df89fc1f137e4fde2c4c36e9b3e61fb646e738d
 }
